@@ -9,8 +9,8 @@ float offset = 2.5;         // Will be calibrated
 float threshold = 0.8;      // Overload threshold in Amps
 
 // --- WiFi & ThingSpeak setup ---
-const char* ssid = "wifi001";
-const char* password = "12345578";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 String writeAPIKey = "UYCQDIGQZ5BA0T4K";   // Replace with your ThingSpeak Write API Key
 const char* server = "https://api.thingspeak.com/update";
 
@@ -85,3 +85,4 @@ void loop() {
 
   delay(15000);  // ThingSpeak allows one update every 15 seconds
 }
+
